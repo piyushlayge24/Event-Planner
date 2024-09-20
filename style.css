@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.main{
+    width: 100%;
+    padding: 10px;
+}
+
+.container{
+    width: 92%;
+    background: #fff;
+    margin: 30px 30px 30px 40px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #002765;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 42%;
+    font-size: 16px;
+    background: #edeef0;
+    height: 30px;
+}
+
+/* .container #taskTitle {
+    padding: 12px;
+} */
+
+button {
+    padding: 12px 19px;
+    border: 1px solid #28a745;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 50px;
+    margin-top: -4px;
+}
+
+button:hover {
+    background-color: #218838;
+    border: 1px solid #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+button.remove {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+    margin-top: -3px;
+    font-size: 12px;
+    height: 25px;
+}
+
+button.remove:hover {
+    background-color: #c82333;
+}
